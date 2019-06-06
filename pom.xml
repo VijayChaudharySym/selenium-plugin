@@ -74,6 +74,16 @@
 			<version>${selenium.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-javadoc-plugin</artifactId>
+			<version>2.10.4</version>
+			<configuration>
+			<javadocExecutable>"C:\Program Files\Java\jdk1.8.0_201\bin/javadoc.exe"</javadocExecutable>
+			</configuration>	
+		</dependency>
+
 		<dependency>
 			<groupId>net.sourceforge.htmlunit</groupId>
 			<artifactId>htmlunit</artifactId>
