@@ -80,7 +80,7 @@
 			<artifactId>maven-javadoc-plugin</artifactId>
 			<version>2.10.4</version>
 			<configuration>
-			<javadocExecutable>"C:\Program Files\Java\jdk1.8.0_201\bin/javadoc.exe"</javadocExecutable>
+				<javadocExecutable>"C:\Program Files\Java\jdk1.8.0_201\bin/javadoc.exe"</javadocExecutable>
 			</configuration>	
 		</dependency>
 
